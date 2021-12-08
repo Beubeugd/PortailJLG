@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">		
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script src="app2.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PJLG - Admin</title>
+</head>
+<body>
+	<div class="title">
+		Bienvenue dans l'interface Admin.
+	</div> <br> <br>
+	<div class="texte">
+		Voici la liste des activités actuellement disponnible.
+	</div>
+	<br>
+	<div class="alp1" id="act">.</div>
+	<div class="alp2" id="act">.</div>
+	<div class="alp3" id="act">.</div>
+	<div class="alp4" id="act">.</div>
+	<div class="alp5" id="act">.</div>
+	<br>
+	<div class="expl">
+		Remplacer la premiére activité : <br> <br>
+	<input type="text" name="input1" class="input1" id="input"> <br> <br>
+	Remplacer la deuxieme activité : <br> <br>
+	<input type="text" name="input1" class="input2" id="input"> <br> <br>
+	Remplacer la troisième activité : <br> <br>
+	<input type="text" name="input1" class="input3" id="input"> <br> <br>
+	Remplacer la quatriéme activité : <br> <br>
+	<input type="text" name="input1" class="input4" id="input"> <br> <br>
+	Remplacer la cinquiéme activité : <br> <br>
+	<input type="text" name="input1" class="input5" id="input"> <br> <br>
+</div>
+	<br>
+	<br>
+	<button onclick="bouton()"> Valider</button>
+
+<script type="text/javascript">
+	var refre = setInterval(ouais, 1000);
+
+function ouais() {
+var alp1 = document.querySelector(".alp1");
+var alp2 = document.querySelector(".alp2");
+var alp3 = document.querySelector(".alp3");
+var alp4 = document.querySelector(".alp4");
+var alp5 = document.querySelector(".alp5");
+
+var text1 = localStorage.getItem('act1');
+var text2 = localStorage.getItem('act2');
+var text3 = localStorage.getItem('act3');
+var text4 = localStorage.getItem('act4');
+var text5 = localStorage.getItem('act5');
+
+
+	
+
+alp1.innerText = text1;
+alp2.innerText = text2;
+alp3.innerText = text3;
+alp4.innerText = text4;
+alp5.innerText = text5;
+
+}
+</script>
+
+
+</body>
+</html>

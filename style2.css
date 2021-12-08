@@ -1,0 +1,50 @@
+body {
+
+
+	background-color: #00a2b3;
+	color: white;
+		margin-left: 5em;
+	margin-top: 2em;
+}
+
+.title {
+
+
+	font-family: arial;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+.texte {
+
+
+	font-family: arial;
+	font-size: 20px;
+}
+
+#input {
+
+
+	border: none;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+#act {
+
+
+	font-family: arial;
+}
+
+.expl {
+
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+}
+
+#act {
+
+	font-size: 20px;
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="script.js"></script>
+<script src="app.js"></script>
+
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0">
+	<title class="GRANDTITRE">PJLG</title>
+</head>
+<body>
+
+ 
+
+	<div class="barNav">
+		<div class="emoticons">
+	<a href="https://fr-fr.facebook.com/csclg/" id="a"><i class='bx bxl-facebook'></i></a> 
+	<a href="https://www.instagram.com/cslazaregarreau/" id="a"><i class='bx bxl-instagram'></i></a>
+
+</div>
+	<div class="content">
+		<a class="a" href="https://www.centre-social-lazare-garreau-lille.fr/nos-partenaires/" > Nos Partenaires</a> &emsp;
+		<a class="a" href="https://www.centre-social-lazare-garreau-lille.fr/feder/"> FEDER</a> &emsp;
+		<a class="a" href="https://www.centre-social-lazare-garreau-lille.fr/mentions-legales/"> Mentions Légales</a> &emsp;
+		<a class="a" href="https://www.centre-social-lazare-garreau-lille.fr/appel-doffre/"> Appel d'offre</a> &emsp;
+		
+
+
+	</div>
+</div>
+
+<div class="all">
+	<div class="col">
+		<div class="content3">
+			<div class="title">
+				Centre Social Lazzare Garreau 
+			</div>
+			<div class="sousTitle">Secteur Jeunes</div> <br>
+			<br>
+			<div class="other">Formulaire d'inscriton du secteur Jeune aux différentes activités <i class='bx bx-been-here'></i>.</div>
+		</div>
+		
+	</div>
+	
+
+</div>
+
+<div class="under">
+	<div class="content4">
+		Voici quelques étapes pour remplir votre formulaire <i class='bx bxs-downvote'></i> 
+		<br> <br> <br>
+		1- Choisisez l'activité via le menu déroulant.
+		<br> <br>
+		2- Remplissez les différents éléments (Nom/Prenom/Adresse/Code postal/ etc...).
+		<br> <br>
+		3- Si vous ne répondez pas correctement aux questions votre candidadure pourrais-être refusé.
+		<br> 
+		<p class="papa">
+		4- Répondez sérieusement, il faut pas que vous métiez des informations fausses.
+	</p>
+       
+
+
+	</div>
+	
+
+</div>
+
+<div class="form">
+	<div class="te">
+		<div class="ta">
+			<div class="lef">
+				<div class="midl">
+
+		Choisisez une activité : <br> <br>
+
+
+
+	<select id="select" class="opt">
+		<option value="0" class="act1"></option>
+		<option value="1" class="act2"></option>
+		<option value="2" class="act3"></option>
+		<option value="3" class="act4"></option>
+		<option value="4" class="act5"></option>
+	</select> 
+
+<script type="text/javascript">
+	/*
+	var alp = document.querySelector(".act1").innerText;
+	var alp2 = document.querySelector(".act2").innerText;
+	var alp3 = document.querySelector(".act3").innerText;
+	var alp4 = document.querySelector(".act4").innerText;
+	var alp5 = document.querySelector(".act5").innerText;
+    localStorage.setItem('act1', alp);
+    localStorage.setItem('act2', alp2);
+    localStorage.setItem('act3', alp3);
+    localStorage.setItem('act4', alp4);
+    localStorage.setItem('act5', alp5);
+    */
+
+</script>
+
+<script type="text/javascript">
+	var axe = setInterval(restart, 1000);
+
+	function restart() {
+	
+
+	var texx1 = localStorage.getItem('act1');
+	var texx2 = localStorage.getItem('act2');
+	var texx3 = localStorage.getItem('act3');
+	var texx4 = localStorage.getItem('act4');
+	var texx5 = localStorage.getItem('act5');
+
+	var alp = document.querySelector(".act1");
+	var alp2 = document.querySelector(".act2");
+	var alp3 = document.querySelector(".act3");
+	var alp4 = document.querySelector(".act4");
+	var alp5 = document.querySelector(".act5");
+
+	alp.innerText = texx1;
+	alp2.innerText = texx2;
+	alp3.innerText = texx3;
+	alp4.innerText = texx4;
+	alp5.innerText = texx5;
+
+}
+
+</script>
+
+</div>
+
+
+	<br> <br>
+	Mettez votre nom : <br> <br>
+	<input type="text" name="name" class="name" maxlength="14"> <br> <br>
+		Mettez votre prenom : <br> <br>
+	<input type="text" name="name2" class="name2" maxlength="14"> <br> <br>
+		Mettez votre date de naissance : <br> <br>
+	<input type="date" name="name3" class="name3"> <br> <br>
+	Saisisez un mois où serais disponnible <br> (nous vous comuniquerons <br> des dates plus précises suivant votre demande). <br>  <br>
+	<input type="month" name="name8" class="name8">
+
+
+
+
+</div>
+
+
+
+<div class="rig">
+	Mettez votre adresse : <br> <br>
+	<input type="text" name="name4" class="name4" maxlength="32"> <br> <br>
+	Mettez votre code Postal : <br> <br>
+	<input type="text" name="name5" class="name5" maxlength="5"> <br> <br>
+	Mettez votre numéro de téléphone : <br> <br>
+	<input type="text" name="name6" class="name6" minlength="10" maxlength="14"> <br> <br>
+	Saisisez votre adresse Mail : <br> <br>
+	<input type="email" name="name7" class="name7">
+
+</div>
+	
+<button class="btn" onclick="start()">Envoyez <i class='bx bx-check'></i> </button>
+<button class="btn3" onclick="change()"> Changer le formulaire <i class='bx bxs-user-badge'></i></button> <br>
+<input type="text" name="name9" class="name9">
+<button class="btn4" onclick="valid()"> Validez mot de passe</button>
+</div>
+</div>
+</div>
+
+<div class="end">
+	<div class="droi">
+		<h2>ACCEUIL</h2> <br>
+
+	
+
+	<h4 class="coco">Venez prendre un café au Centre avec Fatiha, Roselyne et Christine. <br> <br>
+Elles vous renseigneront sur : <br> <br> <br>
+
+L’ALSH du Centre Social, <br> <br>
+L’adhésion, <br> <br>
+Les réservations des ateliers, <br> <br>
+Les sorties familiales et intercentres.
+</h4>
+<br> <br> 
+<h2>HORRAIRES</h2>
+		<h4 class="coco">
+			
+			HORS VACANCES SCOLAIRES : Lundi, Mardi, Jeudi et Vendredi de 9h à <br> <br>
+			12h30 et de 14h à 18h Mercredi de 9h à 12h et de 14h à 17h30 <br> <br> <br>
+
+PENDANT LES VACANCES SCOLAIRES : du Lundi au Vendredi de 8h30 à <br> <br>
+ 12h et de 14h à 17h30
+		</h4>
+
+
+	</div>
+	<br> <br>
+
+
+
+
+
+	<div class="gau">
+		<h2>ADRESSE</h2> <br>
+		<h4 class="coco">45 RUE LAZARE GARREAU <br> <br>
+59000 LILLE Accès : En métro, M2 Porte des Postes et avec les bus n°14, L7 et Corolle 1</h4>
+<br> <br> 
+<h2>Contact</h2> <br>
+
+<h4 class="coco"> Téléphone : 0328553820 <br> <br>
+Fax : 0328553825</h4>
+<br>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.813471081596!2d3.0532713152717665!3d50.612003483592645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5a474f1aa05%3A0xdedb0abd03510bb6!2sCentre%20Social%20et%20Culturel%20Lazare%20Garreau!5e0!3m2!1sfr!2sfr!4v1638542536387!5m2!1sfr!2sfr" width="500" height="200" style="border:0;" loading="lazy"></iframe>
+
+
+
+	</div>
+	
+
+
+
+</div>
+
+<div class="backrooms" onclick="speed()">
+	
+	<div class="baText">
+		<a class="aBa" href="https://www.centre-social-lazare-garreau-lille.fr/mentions-legales/">Mentions légales</a> 
+		<br>
+
+	</div>
+<div class="icons2">
+	<a class="icons3" href="https://fr-fr.facebook.com/csclg/"><i class='bx bxl-facebook'></i></a>
+	<a class="icons3" href="https://www.instagram.com/cslazaregarreau/"><i class='bx bxl-instagram'></i></a>
+</div>
+</div>
+
+</body>
+</html>
